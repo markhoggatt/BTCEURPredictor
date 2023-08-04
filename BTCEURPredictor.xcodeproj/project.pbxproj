@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21345BE42A7D0DFF0037A7C1 /* BTCEURPredictorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345BE32A7D0DFF0037A7C1 /* BTCEURPredictorApp.swift */; };
+		21345BE62A7D0DFF0037A7C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345BE52A7D0DFF0037A7C1 /* ContentView.swift */; };
+		21345BE82A7D0E000037A7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21345BE72A7D0E000037A7C1 /* Assets.xcassets */; };
+		21345BEB2A7D0E000037A7C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21345BEA2A7D0E000037A7C1 /* Preview Assets.xcassets */; };
+		21345BED2A7D0E000037A7C1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345BEC2A7D0E000037A7C1 /* Persistence.swift */; };
+		21345BF02A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21345BEE2A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodeld */; };
+		21345BFB2A7D0E000037A7C1 /* BTCEURPredictorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345BFA2A7D0E000037A7C1 /* BTCEURPredictorTests.swift */; };
+		21345C052A7D0E000037A7C1 /* BTCEURPredictorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345C042A7D0E000037A7C1 /* BTCEURPredictorUITests.swift */; };
+		21345C072A7D0E000037A7C1 /* BTCEURPredictorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345C062A7D0E000037A7C1 /* BTCEURPredictorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21345BF72A7D0E000037A7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21345BD82A7D0DFF0037A7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21345BDF2A7D0DFF0037A7C1;
+			remoteInfo = BTCEURPredictor;
+		};
+		21345C012A7D0E000037A7C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21345BD82A7D0DFF0037A7C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21345BDF2A7D0DFF0037A7C1;
+			remoteInfo = BTCEURPredictor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21345BE02A7D0DFF0037A7C1 /* BTCEURPredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCEURPredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21345BE32A7D0DFF0037A7C1 /* BTCEURPredictorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCEURPredictorApp.swift; sourceTree = "<group>"; };
+		21345BE52A7D0DFF0037A7C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21345BE72A7D0E000037A7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21345BEA2A7D0E000037A7C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21345BEC2A7D0E000037A7C1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		21345BEF2A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BTCEURPredictor.xcdatamodel; sourceTree = "<group>"; };
+		21345BF12A7D0E000037A7C1 /* BTCEURPredictor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BTCEURPredictor.entitlements; sourceTree = "<group>"; };
+		21345BF62A7D0E000037A7C1 /* BTCEURPredictorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCEURPredictorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21345BFA2A7D0E000037A7C1 /* BTCEURPredictorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCEURPredictorTests.swift; sourceTree = "<group>"; };
+		21345C002A7D0E000037A7C1 /* BTCEURPredictorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCEURPredictorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21345C042A7D0E000037A7C1 /* BTCEURPredictorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCEURPredictorUITests.swift; sourceTree = "<group>"; };
+		21345C062A7D0E000037A7C1 /* BTCEURPredictorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTCEURPredictorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21345BDD2A7D0DFF0037A7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21345BF32A7D0E000037A7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21345BFD2A7D0E000037A7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21345BD72A7D0DFF0037A7C1 = {
+			isa = PBXGroup;
+			children = (
+				21345BE22A7D0DFF0037A7C1 /* BTCEURPredictor */,
+				21345BF92A7D0E000037A7C1 /* BTCEURPredictorTests */,
+				21345C032A7D0E000037A7C1 /* BTCEURPredictorUITests */,
+				21345BE12A7D0DFF0037A7C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21345BE12A7D0DFF0037A7C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21345BE02A7D0DFF0037A7C1 /* BTCEURPredictor.app */,
+				21345BF62A7D0E000037A7C1 /* BTCEURPredictorTests.xctest */,
+				21345C002A7D0E000037A7C1 /* BTCEURPredictorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21345BE22A7D0DFF0037A7C1 /* BTCEURPredictor */ = {
+			isa = PBXGroup;
+			children = (
+				21345BE32A7D0DFF0037A7C1 /* BTCEURPredictorApp.swift */,
+				21345BE52A7D0DFF0037A7C1 /* ContentView.swift */,
+				21345BE72A7D0E000037A7C1 /* Assets.xcassets */,
+				21345BEC2A7D0E000037A7C1 /* Persistence.swift */,
+				21345BF12A7D0E000037A7C1 /* BTCEURPredictor.entitlements */,
+				21345BEE2A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodeld */,
+				21345BE92A7D0E000037A7C1 /* Preview Content */,
+			);
+			path = BTCEURPredictor;
+			sourceTree = "<group>";
+		};
+		21345BE92A7D0E000037A7C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21345BEA2A7D0E000037A7C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21345BF92A7D0E000037A7C1 /* BTCEURPredictorTests */ = {
+			isa = PBXGroup;
+			children = (
+				21345BFA2A7D0E000037A7C1 /* BTCEURPredictorTests.swift */,
+			);
+			path = BTCEURPredictorTests;
+			sourceTree = "<group>";
+		};
+		21345C032A7D0E000037A7C1 /* BTCEURPredictorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21345C042A7D0E000037A7C1 /* BTCEURPredictorUITests.swift */,
+				21345C062A7D0E000037A7C1 /* BTCEURPredictorUITestsLaunchTests.swift */,
+			);
+			path = BTCEURPredictorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21345BDF2A7D0DFF0037A7C1 /* BTCEURPredictor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21345C0A2A7D0E000037A7C1 /* Build configuration list for PBXNativeTarget "BTCEURPredictor" */;
+			buildPhases = (
+				21345BDC2A7D0DFF0037A7C1 /* Sources */,
+				21345BDD2A7D0DFF0037A7C1 /* Frameworks */,
+				21345BDE2A7D0DFF0037A7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCEURPredictor;
+			productName = BTCEURPredictor;
+			productReference = 21345BE02A7D0DFF0037A7C1 /* BTCEURPredictor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21345BF52A7D0E000037A7C1 /* BTCEURPredictorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21345C0D2A7D0E000037A7C1 /* Build configuration list for PBXNativeTarget "BTCEURPredictorTests" */;
+			buildPhases = (
+				21345BF22A7D0E000037A7C1 /* Sources */,
+				21345BF32A7D0E000037A7C1 /* Frameworks */,
+				21345BF42A7D0E000037A7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21345BF82A7D0E000037A7C1 /* PBXTargetDependency */,
+			);
+			name = BTCEURPredictorTests;
+			productName = BTCEURPredictorTests;
+			productReference = 21345BF62A7D0E000037A7C1 /* BTCEURPredictorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21345BFF2A7D0E000037A7C1 /* BTCEURPredictorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21345C102A7D0E000037A7C1 /* Build configuration list for PBXNativeTarget "BTCEURPredictorUITests" */;
+			buildPhases = (
+				21345BFC2A7D0E000037A7C1 /* Sources */,
+				21345BFD2A7D0E000037A7C1 /* Frameworks */,
+				21345BFE2A7D0E000037A7C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21345C022A7D0E000037A7C1 /* PBXTargetDependency */,
+			);
+			name = BTCEURPredictorUITests;
+			productName = BTCEURPredictorUITests;
+			productReference = 21345C002A7D0E000037A7C1 /* BTCEURPredictorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21345BD82A7D0DFF0037A7C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					21345BDF2A7D0DFF0037A7C1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					21345BF52A7D0E000037A7C1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 21345BDF2A7D0DFF0037A7C1;
+					};
+					21345BFF2A7D0E000037A7C1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 21345BDF2A7D0DFF0037A7C1;
+					};
+				};
+			};
+			buildConfigurationList = 21345BDB2A7D0DFF0037A7C1 /* Build configuration list for PBXProject "BTCEURPredictor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21345BD72A7D0DFF0037A7C1;
+			productRefGroup = 21345BE12A7D0DFF0037A7C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21345BDF2A7D0DFF0037A7C1 /* BTCEURPredictor */,
+				21345BF52A7D0E000037A7C1 /* BTCEURPredictorTests */,
+				21345BFF2A7D0E000037A7C1 /* BTCEURPredictorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21345BDE2A7D0DFF0037A7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21345BEB2A7D0E000037A7C1 /* Preview Assets.xcassets in Resources */,
+				21345BE82A7D0E000037A7C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21345BF42A7D0E000037A7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21345BFE2A7D0E000037A7C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21345BDC2A7D0DFF0037A7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21345BED2A7D0E000037A7C1 /* Persistence.swift in Sources */,
+				21345BF02A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodeld in Sources */,
+				21345BE62A7D0DFF0037A7C1 /* ContentView.swift in Sources */,
+				21345BE42A7D0DFF0037A7C1 /* BTCEURPredictorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21345BF22A7D0E000037A7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21345BFB2A7D0E000037A7C1 /* BTCEURPredictorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21345BFC2A7D0E000037A7C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21345C072A7D0E000037A7C1 /* BTCEURPredictorUITestsLaunchTests.swift in Sources */,
+				21345C052A7D0E000037A7C1 /* BTCEURPredictorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21345BF82A7D0E000037A7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21345BDF2A7D0DFF0037A7C1 /* BTCEURPredictor */;
+			targetProxy = 21345BF72A7D0E000037A7C1 /* PBXContainerItemProxy */;
+		};
+		21345C022A7D0E000037A7C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21345BDF2A7D0DFF0037A7C1 /* BTCEURPredictor */;
+			targetProxy = 21345C012A7D0E000037A7C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21345C082A7D0E000037A7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21345C092A7D0E000037A7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		21345C0B2A7D0E000037A7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BTCEURPredictor/BTCEURPredictor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BTCEURPredictor/Preview Content\"";
+				DEVELOPMENT_TEAM = L5R8Q83NF3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.hoggatt.BTCEURPredictor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		21345C0C2A7D0E000037A7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BTCEURPredictor/BTCEURPredictor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BTCEURPredictor/Preview Content\"";
+				DEVELOPMENT_TEAM = L5R8Q83NF3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.hoggatt.BTCEURPredictor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		21345C0E2A7D0E000037A7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5R8Q83NF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.hoggatt.BTCEURPredictorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCEURPredictor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BTCEURPredictor";
+			};
+			name = Debug;
+		};
+		21345C0F2A7D0E000037A7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5R8Q83NF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.hoggatt.BTCEURPredictorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCEURPredictor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BTCEURPredictor";
+			};
+			name = Release;
+		};
+		21345C112A7D0E000037A7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5R8Q83NF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.hoggatt.BTCEURPredictorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BTCEURPredictor;
+			};
+			name = Debug;
+		};
+		21345C122A7D0E000037A7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L5R8Q83NF3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.me.hoggatt.BTCEURPredictorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BTCEURPredictor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21345BDB2A7D0DFF0037A7C1 /* Build configuration list for PBXProject "BTCEURPredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21345C082A7D0E000037A7C1 /* Debug */,
+				21345C092A7D0E000037A7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21345C0A2A7D0E000037A7C1 /* Build configuration list for PBXNativeTarget "BTCEURPredictor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21345C0B2A7D0E000037A7C1 /* Debug */,
+				21345C0C2A7D0E000037A7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21345C0D2A7D0E000037A7C1 /* Build configuration list for PBXNativeTarget "BTCEURPredictorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21345C0E2A7D0E000037A7C1 /* Debug */,
+				21345C0F2A7D0E000037A7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21345C102A7D0E000037A7C1 /* Build configuration list for PBXNativeTarget "BTCEURPredictorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21345C112A7D0E000037A7C1 /* Debug */,
+				21345C122A7D0E000037A7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21345BEE2A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21345BEF2A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodel */,
+			);
+			currentVersion = 21345BEF2A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodel */;
+			path = BTCEURPredictor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21345BD82A7D0DFF0037A7C1 /* Project object */;
+}
