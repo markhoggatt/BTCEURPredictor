@@ -8,13 +8,16 @@
 import SwiftUI
 
 @main
-struct BTCEURPredictorApp: App {
-    let persistenceController = PersistenceController.shared
+struct BTCEURPredictorApp: App
+{
+	let persistenceController = PersistenceController.shared
 
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-        }
-    }
+	var body: some Scene
+	{
+		WindowGroup
+		{
+			ContentView()
+				.environment(\.managedObjectContext, persistenceController.container.viewContext)
+		}
+	}
 }
