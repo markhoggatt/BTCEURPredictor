@@ -33,6 +33,19 @@ final class DataFrameTests: XCTestCase
 		 let frame: DataFrame = try table.loadData()
 		 XCTAssertGreaterThan(frame.rows.count, 1800)
 	}
+	
+	func testDateRangeextraction() throws
+	{
+		let table = DataTableInteractor()
+		let sourceData: DataFrame = try table.loadData()
+		let formatter = DateFormatter()
+		formatter.dateFormat = "yyyy-MM-dd"
+		let start: Date = try XCTUnwrap(formatter.date(from: "2018-08-03"))
+		let end: Date = try XCTUnwrap(formatter.date(from: "2019-08-02"))
+		
+		let extracted: DataFrame = table.extractRange(from: sourceData, from: start, to: end)
+		XCTAssertEqual(364, extracted.rows.count)
+	}
 
     func testPerformanceExample() throws
 	{

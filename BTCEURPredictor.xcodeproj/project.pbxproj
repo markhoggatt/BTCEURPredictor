@@ -19,6 +19,8 @@
 		21345C172A7D12AC0037A7C1 /* DataTableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345C162A7D12AC0037A7C1 /* DataTableInteractor.swift */; };
 		21345C182A7D12AC0037A7C1 /* DataTableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345C162A7D12AC0037A7C1 /* DataTableInteractor.swift */; };
 		21345C1A2A7D37950037A7C1 /* DataFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345C192A7D37950037A7C1 /* DataFrameTests.swift */; };
+		21345C1C2A7D3A200037A7C1 /* ModelTrainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345C1B2A7D3A200037A7C1 /* ModelTrainInteractor.swift */; };
+		21345C1D2A7D3A200037A7C1 /* ModelTrainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21345C1B2A7D3A200037A7C1 /* ModelTrainInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 		21345C142A7D12380037A7C1 /* BTC-EUR.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "BTC-EUR.txt"; sourceTree = "<group>"; };
 		21345C162A7D12AC0037A7C1 /* DataTableInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableInteractor.swift; sourceTree = "<group>"; };
 		21345C192A7D37950037A7C1 /* DataFrameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFrameTests.swift; sourceTree = "<group>"; };
+		21345C1B2A7D3A200037A7C1 /* ModelTrainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTrainInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 				21345BEE2A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodeld */,
 				21345BE92A7D0E000037A7C1 /* Preview Content */,
 				21345C162A7D12AC0037A7C1 /* DataTableInteractor.swift */,
+				21345C1B2A7D3A200037A7C1 /* ModelTrainInteractor.swift */,
 			);
 			path = BTCEURPredictor;
 			sourceTree = "<group>";
@@ -284,6 +288,7 @@
 				21345BED2A7D0E000037A7C1 /* Persistence.swift in Sources */,
 				21345C172A7D12AC0037A7C1 /* DataTableInteractor.swift in Sources */,
 				21345BF02A7D0E000037A7C1 /* BTCEURPredictor.xcdatamodeld in Sources */,
+				21345C1C2A7D3A200037A7C1 /* ModelTrainInteractor.swift in Sources */,
 				21345BE62A7D0DFF0037A7C1 /* ContentView.swift in Sources */,
 				21345BE42A7D0DFF0037A7C1 /* BTCEURPredictorApp.swift in Sources */,
 			);
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21345C1D2A7D3A200037A7C1 /* ModelTrainInteractor.swift in Sources */,
 				21345C1A2A7D37950037A7C1 /* DataFrameTests.swift in Sources */,
 				21345C182A7D12AC0037A7C1 /* DataTableInteractor.swift in Sources */,
 			);
